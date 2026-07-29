@@ -1,0 +1,6 @@
+[build]
+command = "pnpm turbo run build --filter=@holora/event-apply"
+publish = "apps/event-apply/.next"
+
+[build.environment]
+NODE_VERSION = "20"
