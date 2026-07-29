@@ -1,0 +1,9 @@
+[build]
+command = "pnpm turbo run build --filter=@holora/admin"
+publish = "apps/admin/.next"
+
+[build.environment]
+NODE_VERSION = "20"
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"
