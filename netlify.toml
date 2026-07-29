@@ -1,3 +1,4 @@
 [build]
 command = "pnpm turbo run build --filter=@holora/admin"
 publish = "apps/admin/.next"
+publish = "apps/trainer/.next"
