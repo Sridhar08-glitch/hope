@@ -1,0 +1,33 @@
+{
+  "name": "@holora/event-apply",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3003",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf .next .turbo"
+  },
+  "dependencies": {
+    "@holora/api-client": "workspace:*",
+    "@holora/auth": "workspace:*",
+    "@holora/ui": "workspace:*",
+    "@holora/utils": "workspace:*",
+    "framer-motion": "^12.42.2",
+    "lucide-react": "^0.511.0",
+    "next": "^15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@holora/config": "workspace:*",
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "postcss": "^8.5.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "@holora/config",
+  "version": "0.0.1",
+  "private": true,
+  "files": ["tailwind.config.ts", "eslint.js", "tsconfig.base.json"]
+}
