@@ -1,4 +1,6 @@
 [build]
-command = "pnpm turbo run build --filter=@holora/trainer"
+command = "pnpm turbo run build --filter=@holora/admin"
+publish = "apps/admin/.next"
 
-publish = "apps/trainer/.next"
+[build.environment]
+NODE_VERSION = "20"
